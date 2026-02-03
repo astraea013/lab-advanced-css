@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TechMart Online Store</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">TechMart</h1>
+            <nav class="nav">
+                <button class="btn btn--secondary">Login</button>
+                <button class="btn btn--primary">Cart <span class="cart badge">3</span></button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Upgrade your Tech Game</h2>
+            <p class="hero-subtitle">Discover the latest gadgets at unbeatable price.</p>
+            <button class="btn btn--cta">Shop Now</button>
+        </div>
+    </section>
+
+    <section class="filters">
+        <div class="container">
+            <div class="filter-pills">
+                <button class="pill active" data-category="all">All</button>
+                <button class="pill" data-category="laptop">Laptops</button>
+                <button class="pill" data-category="headphones">Headphones</button>
+                <button class="pill" data-category="accessories">Accessories</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card sale" data-rating="4.9">
+                    <img src="products/laptop.avif" alt="Gaming Laptop" class="product-image">
+                    <h3 class="product-name">Gaming Laptop</h3>
+                    <p class="product-desc">High performance laptop for gaming and work</p>
+                    <div class="product-price">
+                        <span class="current-price">999</span>
+                        <span class="old-price">1299</span>
+                    </div>
+                    <div class="product-rating">&starf;&starf;&starf;&starf;&starf;</div>
+                    <button class="btn btn-add">Add to Cart</button>
+                </div>
+
+                <div class="product-card low-stock" data-rating="4.7">
+                    <img src="products/headphone.jpg" alt="Headphones" class="product-image">
+                    <h3 class="product-name">Headphone</h3>
+                    <p class="product-desc">Noise-cancelling headphone</p>
+                    <div class="product-price">
+                        <span class="current-price">199</span>
+                    </div>
+                    <div class="product-rating">&starf;&starf;&starf;&starf;&star; 4.7</div>
+                    <button class="btn btn-add">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-rating="4.8">
+                    <img src="products/mouse.jpg" alt="Gaming Mouse" class="product-image">
+                    <h3 class="product-name">Gaming Mouse</h3>
+                    <p class="product-desc">Ergonomic mouse with RGB lighting</p>
+                    <div class="product-price">
+                        <span class="current-price">49</span>
+                    </div>
+                    <div class="product-rating">&starf;&starf;&starf;&starf;&star; 4.8</div>
+                    <button class="btn btn-add">Add to Cart</button>
+                </div>
+
+                <div class="product-card" data-rating="4.5">
+                    <img src="products/keyboard.avif" alt="Mechanical Keyboard" class="product-image">
+                    <h3 class="product-name">Mechanical Keyboard</h3>
+                    <p class="product-desc">Tactile switches for ultimate typing</p>
+                    <div class="product-price">
+                        <span class="current-price">89</span>
+                    </div>
+                    <div class="product-rating">&starf;&starf;&starf;&starf;&star; 4.5</div>
+                    <button class="btn btn-add">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
